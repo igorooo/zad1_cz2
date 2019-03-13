@@ -1,3 +1,18 @@
 <resources>
     <string name="app_name">zad1_cz2</string>
+    <string name="opis">Takie fajne menu</string>
+    <string name="autor">Igor Czeczot</string>
+    <string name="B1">1</string>
+    <string name="B2">2</string>
+    <string name="B3">3</string>
+    <string name="R1">First option</string>
+    <string name="R2">Second option</string>
+    <string name="R_TV_ST">Selected radio button</string>
+    <string name="R1_TV">First option selected</string>
+    <string name="R2_TV">Second option selected</string>
+    <string name="BACK_B">BACK</string>
+    <string name="TOAST_B">TOAST</string>
+    <string name="EMAIL_V">email </string>
+    <string name="NUMBER_V">number </string>
+    <string name="TXT_V">lines of text </string>
 </resources>
