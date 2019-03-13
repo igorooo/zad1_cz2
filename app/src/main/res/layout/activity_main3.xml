@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main3Activity">
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/EMAIL_V"
+        android:layout_row="0"
+        android:layout_column="2" />
+
+    <EditText
+        android:id="@+id/editTextEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="0"
+        android:layout_column="3"
+        android:ems="10"
+        android:inputType="textEmailAddress" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="2"
+        android:layout_column="2"
+        android:text="@string/TXT_V" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="1"
+        android:layout_column="2"
+        android:text="@string/NUMBER_V" />
+
+    <EditText
+        android:id="@+id/editTextNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="1"
+        android:layout_column="3"
+        android:ems="10"
+        android:inputType="number" />
+
+    <ScrollView
+        android:layout_width="384dp"
+        android:layout_height="280dp"
+        android:layout_row="2"
+        android:layout_column="3">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/editTextLines"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textMultiLine" />
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/toast3"
+        android:layout_width="194dp"
+        android:layout_height="wrap_content"
+        android:layout_row="31"
+        android:layout_column="2"
+        android:text="@string/TOAST_B"
+        android:onClick="toast"/>
+
+    <Button
+        android:id="@+id/back3"
+        android:layout_width="247dp"
+        android:layout_height="wrap_content"
+        android:layout_row="31"
+        android:layout_column="3"
+        android:text="@string/BACK_B"
+        android:onClick="goback"/>
+
+
+</GridLayout>
+

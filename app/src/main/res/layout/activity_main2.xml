@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main2Activity">
+
+    <RadioGroup
+        android:id="@+id/RBG"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+
+        <RadioButton
+            android:id="@+id/radioButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/R1"
+            android:textSize="30sp"
+            android:onClick="RBclick"
+            android:checked="true"/>
+
+        <RadioButton
+            android:id="@+id/radioButton1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/R2"
+            android:textSize="30sp"
+            android:onClick="RBclick"/>
+
+        <TextView
+            android:id="@+id/radio_buttons_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/R_TV_ST"
+            android:textSize="40sp"
+            />
+
+    </RadioGroup>
+
+    <ImageView
+        android:layout_below="@+id/RBG"
+        android:id="@+id/img_toogle"
+        android:layout_width="300px"
+        android:layout_height="300px"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="true"/>
+
+    <ToggleButton
+        android:id="@+id/toggleButton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/img_toogle"
+        android:layout_marginLeft="3dp"
+        android:layout_marginTop="-47dp"
+        android:layout_toRightOf="@+id/img_toogle"
+        />
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height= "match_parent"
+        android:orientation="horizontal"
+        tools:context=".MainActivity">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_weight="1"
+            android:id="@+id/toast_button"
+            android:text="@string/TOAST_B"
+            android:onClick="toast"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_weight="1"
+            android:id="@+id/back_button"
+            android:text="@string/BACK_B"
+            android:onClick="goback"
+
+            />
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>
