@@ -5,6 +5,8 @@
     <string name="B1">1</string>
     <string name="B2">2</string>
     <string name="B3">3</string>
+    <string name="B4">4</string>
+    <string name="B5">5</string>
     <string name="R1">First option</string>
     <string name="R2">Second option</string>
     <string name="R_TV_ST">Selected radio button</string>
@@ -15,4 +17,6 @@
     <string name="EMAIL_V">email </string>
     <string name="NUMBER_V">number </string>
     <string name="TXT_V">lines of text </string>
+    <string name="BLUE">BLUE</string>
+    <string name="RED">RED</string>
 </resources>

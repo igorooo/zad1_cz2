@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main5Activity">
+
+    <CheckBox
+        android:id="@+id/checkBoxAct5"
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        android:layout_alignParentLeft="true"
+        android:text="CheckBox"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="80dp" />
+
+    <EditText
+        android:id="@+id/editTextAct5"
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        android:layout_alignParentRight="true"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name"
+        tools:layout_editor_absoluteX="155dp"
+        tools:layout_editor_absoluteY="66dp" />
+
+    <RadioGroup
+        android:id="@+id/RGactiv5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/checkBoxAct5"
+        android:layout_centerHorizontal="true"
+        tools:layout_editor_absoluteX="72dp"
+        tools:layout_editor_absoluteY="200dp">
+
+
+        <RadioButton
+            android:id="@+id/radioButton2act5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:onClick="RBclick"
+            android:text="@string/BLUE"
+            android:textSize="30sp" />
+
+        <RadioButton
+            android:id="@+id/radioButton1act5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/RED"
+            android:textSize="30sp"
+            android:onClick="RBclick"/>
+
+
+        </RadioGroup>
+</RelativeLayout>

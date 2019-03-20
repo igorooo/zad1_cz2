@@ -21,44 +21,65 @@
         android:textSize="30sp"
         android:layout_gravity="center"/>
 
+
     <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height= "match_parent"
-    android:orientation="horizontal"
-    tools:context=".MainActivity">
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="bottom"
+        android:orientation="horizontal"
+        tools:context=".MainActivity">
+
 
         <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="bottom"
-            android:layout_weight="1"
             android:id="@+id/button1"
-            android:text="@string/B1"
-            />
-
-        <Button
-            android:layout_width="wrap_content"
+            android:layout_width="136dp"
             android:layout_height="wrap_content"
             android:layout_gravity="bottom"
             android:layout_weight="1"
+            android:text="@string/B1" />
+
+        <Button
             android:id="@+id/button2"
-            android:text="@string/B2"
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:layout_row="0"
+            android:layout_column="1"
+            android:layout_gravity="bottom"
 
-            />
+            android:layout_weight="1"
+            android:text="@string/B2" />
 
         <Button
-            android:layout_width="wrap_content"
+            android:id="@+id/button3"
+            android:layout_width="142dp"
+            android:layout_height="wrap_content"
+            android:layout_row="0"
+            android:layout_column="3"
+            android:layout_gravity="bottom"
+
+            android:layout_weight="1"
+            android:text="@string/B3" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="136dp"
             android:layout_height="wrap_content"
             android:layout_gravity="bottom"
             android:layout_weight="1"
-            android:id="@+id/button3"
-            android:text="@string/B3"
+            android:text="@string/B4" />
 
-            />
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="136dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_weight="1"
+            android:text="@string/B5" />
 
-</LinearLayout>
+
+    </LinearLayout>
 
 
 
